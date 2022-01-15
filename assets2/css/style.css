@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap");
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: x-large;
+}
+
+.navbar-brand .logo {
+	width: 150px;
+}
+
+.nav-link,
+.dropdown-item {
+	text-transform: uppercase;
+	color: #f15922 !important;
+}
+
+.carousel-inner img {
+	width: 1500px;
+	height: 695px;
+}
+
+.carousel-caption h5 {
+	font-size: 80px;
+	margin-bottom: 200px;
+}
+
+.berita {
+	padding: 70px 0;
+}
+
+.berita p.date {
+	color: rgb(114, 114, 114);
+	font-size: 13px;
+}
+
+.berita p.title {
+	color: #f15922;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.berita p.kategori {
+	color: rgb(114, 114, 114);
+}
+
+.berita p.ringkasan {
+	color: rgb(114, 114, 114);
+}
+
+.card-body h5 {
+	color: #1d388d;
+}
+
+h2.title {
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+}
+
+h2.title::after {
+	content: "";
+	background: #f15922;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+h1.populer {
+	color: #1d388d;
+	font-size: 25px;
+}
+
+hr {
+	border-color: #f15922;
+}
+
+.col-lg-4 .row .col-12 p.title {
+	color: #1d388d;
+	font-weight: 800;
+}
+
+.col-lg-4 .row .col-12 p.date {
+	color: #f15922;
+	font-size: 12px;
+}
+
+h3.title {
+	color: #1d388d !important;
+}
+
+.copyright p {
+	color: #555;
+}
+
+.copyright {
+	width: 100%;
+	padding: 8px 100px;
+	background: #181818;
+	text-align: center;
+}
+
+.section-contact {
+	background-color: black;
+}
+
+.about,
+.kontak {
+	color: white;
+}
+
+.footer p {
+	color: rgb(102, 101, 101);
+}
+
+.footer h2.title {
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+.dokumen-perusahaan {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+/*
+#1D388D
+#F15922
+*/
